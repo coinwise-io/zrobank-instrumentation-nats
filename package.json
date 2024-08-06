@@ -1,0 +1,56 @@
+{
+  "name": "nats-instrumentation",
+  "version": "1.0.0",
+  "description": "This repository is a contribution to OpenTelemetry NATS-Core Instrumentation that is not part of the [core-repository] and core distribution of the OpenTelemetry APIs, SDKs, and tools.",
+  "author": {
+    "name": "Z.ro Bank",
+    "url": "https://www.zrobank.com.br",
+    "email": "tecnologia@zrobank.com.br"
+  },
+  "private": false,
+  "license": "",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "eslint \"{src,libs,test}/**/*.ts\"",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage",
+    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand"
+  },
+  "dependencies": {
+    "@opentelemetry/api": "^1.8.0",
+    "@opentelemetry/exporter-metrics-otlp-http": "^0.51.0",
+    "@opentelemetry/sdk-node": "^0.51.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "git-last-commit": "^1.0.1",
+    "nats": "^2.28.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@jest/test-sequencer": "^29.7.0",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^22.1.0",
+    "@types/uuid": "^10.0.0",
+    "jest": "^29.7.0",
+    "jest-ts-auto-mock": "^2.1.0",
+    "mocha": "^10.7.0",
+    "prettier": "^3.3.3",
+    "rootpath": "^0.1.2",
+    "supertest": "^7.0.0",
+    "ts-auto-mock": "^3.7.3",
+    "ts-jest": "^29.2.4",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "5.3.3",
+    "webpack-cli": "^5.1.4"
+  },
+  "engines": {
+    "node": ">= 20.15.1",
+    "npm": ">= 10.7.0"
+  }
+}
