@@ -8,4 +8,4 @@ We continued and modified the works shared by @ekosz at: https://github.com/ekos
 
 ## License
 
-Apache 2.0 - See [LICENSE][license-url] for more information.
+MIT - See [LICENSE] for more information.
