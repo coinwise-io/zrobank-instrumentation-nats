@@ -1,6 +1,6 @@
 {
   "name": "nats-instrumentation",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "This repository is a contribution to OpenTelemetry NATS-Core Instrumentation that is not part of the [core-repository] and core distribution of the OpenTelemetry APIs, SDKs, and tools.",
   "author": {
     "name": "Z.ro Bank",
@@ -8,7 +8,7 @@
     "email": "tecnologia@zrobank.com.br"
   },
   "private": false,
-  "license": "",
+  "license": "MIT",
   "main": "main.js",
   "directories": {
     "test": "test"
